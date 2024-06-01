@@ -1,0 +1,28 @@
+.para1{
+    color: #FB5B21;
+    
+}
+.para2{
+    color: black;
+    font-size: 80px;
+}
+.row1{
+    padding: 0px 100px 0px 100px;
+    /* background-color: yellow; */
+}
+.white{
+    color:white;
+}
+.orenge{
+    color: #FB5B21;
+}
+.black{
+    background-color: #222429;
+    border:none;
+    padding: 60px 60px 20px 60px;
+}
+.para{
+    color: black;
+    background-color: rgba(135, 207, 235, 0.226);
+    
+}

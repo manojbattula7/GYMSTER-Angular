@@ -1,0 +1,77 @@
+.text{
+    font-weight: bold;
+   
+    color: orangered;
+    text-align: center;
+    font-size: 3cap;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.text2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(10, 10, 10);
+    text-align: center;
+    font-size:50px;
+}
+
+
+
+
+.team-area {
+    background-color: rgb(23, 23, 24);
+    margin-bottom: 20px;
+    position: relative;
+    backface-visibility: hidden;
+
+}
+
+.team-area .img-area {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-area .img-area img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+   
+}
+
+.team-area:hover .img-area img {
+    transform: scale(1.2);
+    backface-visibility: hidden;
+    filter: grayscale(100%);
+}
+
+.team-area .social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    
+}
+
+.team-area:hover .social {
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.team-area .img-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.914);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}

@@ -1,0 +1,50 @@
+.background{
+    background-color: #f0f2f5;
+}
+
+.equipment{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    /* background-color: #FB5B21; */
+    transition: transform 2s;
+}
+.equipment:hover{
+    transform: rotate(360deg);
+}
+.equ_row{
+    /* background-color: yellow; */
+    display: flex;
+}
+.images{
+    height: 250px;
+    width: 100%;
+}
+.increase-card{
+	transition: transform 2s;
+}
+
+.increase-card:hover{
+	/*width: 50%;*/
+	/*height:50%;*/
+	/*transform: translate(-50px);*/
+	/*transform: rotate(360deg);*/
+	transform: scale(1.1,1.1);
+	z-index: 100;
+}
+
+.btn-color{
+    background-color: #FB5B21;
+    /* border-color: none !important; */
+    border: 1px solid #FB5B21;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.btn-color:active{
+    color: #ffffff;
+    font-size: 18px !important;
+    background-color: #FB5B21;
+    outline: none;
+    border: 1px solid #FB5B21;
+}

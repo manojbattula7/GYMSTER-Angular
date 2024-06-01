@@ -1,0 +1,159 @@
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row gx-5 main">
+            <div class="col-lg-5">
+                <img src="../../assets/images/team-3.jpg" alt="two_dogs" height="100%" width="100%">
+            </div>
+            <div class="col-lg-7">
+                <div style="padding-top: 80px;">
+                    <div class="row main2">
+                        <p class="b"> <b>ABOUT US</b> </p>
+                        <h1 class="hb"> WELCOME TO GYMSTER </h1>
+                    </div>
+
+                    <div class="row p-3">
+                        <h4 class="content-3"><b>Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no
+                                labore lorem sit clita duo justo magna dolore</b></h4>
+                    </div>
+                    <div class="row bcard">
+                        <!-- <a href=""  (click)="get1();" class="col-lg-6 btn-color"> OUR MISSION</a> -->
+                        <div class="col-lg-6">
+                            <button type="btn btn-color" (click)="get1();"
+                                style="width: 100%; padding: 10px !important;"> OUR MISSION </button>
+                            <!-- <a href="" class="btn">Home</a> -->
+                        </div>
+                        <div class="col-lg-6">
+                            <button type="btn btn-color" (click)="get2();"
+                                style="width: 100%; padding: 10px !important;"> OUR
+                                VISION </button>
+                        </div>
+                        <P *ngIf=!val class="col-m changable" style="text-align: justify;">
+                            A gym mission statement is a concise declaration that outlines the primary purpose, goals, and values of your fitness center. It serves as a guiding principle for your gym’s operations and decision-making.
+                            A gym mission statement serves as the foundation of a fitness center’s identity, guiding its purpose, values, and goals. Crafting a powerful gym mission statement can inspire and motivate both employees and members, driving the success of the gym community.
+
+                        </P>
+                        <p *ngIf=val class="changable" style="text-align: justify;">
+                            To enhance the quality of life in the communities, we serve through our fitness philosophy, facilities, programs, and products and to instill in the lives of people everywhere the value of health and fitness.
+                            Our vision is to empower individuals to transform their lives through fitness, fostering a community of strength, wellness, and personal growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row dis text-light">
+        <div class="col-lg-4 col-card">
+            <div class="card text-center" style="background-color: #f0f2f5;">
+                <div class="container">
+                    <div class="card-img-top">
+                        <img class="" src="../../assets/six-pack.png" width="20%" height="20%">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>BODY BULIDING</b></h3>
+                        <br>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <br>
+                        <a href="">READ MORE <i class="fa-solid fa-arrow-right icon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card text-center" style="background-color: #f0f2f5;">
+                <div class="container">
+                    <div class="card-img-top">
+                        <img class="" src="../../assets/gym.png" width="20%" height="20%">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>WEIGHT LEFTING</b></h3>
+                        <br>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <br>
+                        <a href="">READ MORE <i class="fa-solid fa-arrow-right icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card text-center" style="background-color: #f0f2f5;">
+                <div class="container">
+                    <div class="card-img-top">
+                        <img class="" src="../../assets/bodybuilding.png" width="20%" height="20%">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title"><b>MUSCLE BUILDING</b></h3>
+                        <br>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <br>
+                        <a href="">READ MORE <i class="fa-solid fa-arrow-right icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row dis-text">
+            <h1 class="text-center" style="font-size: 56px;"><b>30% Discount for the summer </b></h1>
+        </div>
+    </div>
+
+    <div class="row dis">
+        <div class="container text-light">
+            <div class="row p-5">
+                <div class="col-lg-3 gap">
+                    <div class="pro">
+                        <div class="pro-icon">
+                            <button class="btn btn-users rounded-circle" style="margin-top: 10px;"><i class="fa-solid fa-star"></i></button>
+                        </div>
+                        <div class="pro-content">
+                                <h4>Experience</h4>
+                                <h2><b>{{projectcount}}</b></h2>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 gap">
+                    <div class="pro">
+                        <div class="pro-icon">
+                            <button class="btn btn-users rounded-circle" style="margin-top: 10px;"><i class="fa-solid fa-users"></i></button>
+                        </div>
+                        <div class="pro-content">
+                                <h4><b>OUR TRAINERS</b></h4>
+                                <h2><b>{{projectcount}}</b></h2>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 gap">
+                    <div class="pro">
+                        <div class="pro-icon">
+                            <button class="btn btn-users rounded-circle" style="margin-top: 10px;"><i class="fa-solid fa-check"></i></button>
+                        </div>
+                        <div class="pro-content">
+                                <h4>COMPLETE PROJECTS</h4>
+                                <h2><b>{{projectcount}}</b></h2>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 gap">
+                    <div class="pro">
+                        <div class="pro-icon">
+                            <button class="btn btn-users rounded-circle" style="margin-top: 10px; font-size: 20px;"><i class="fa-solid fa-mug-hot"></i></button>
+                        </div>
+                        <div class="pro-content">
+                                <h4>HAPPY CLIENTS</h4>
+                                <h2><b>{{projectcount}}</b></h2>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

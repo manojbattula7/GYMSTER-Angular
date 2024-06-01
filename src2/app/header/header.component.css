@@ -1,0 +1,147 @@
+.lightshadeblack {
+    background-color: #222429;
+}
+
+.text-orange-color{
+    color: #FB5B21;
+}
+
+.logo {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 30px !important;
+    
+}
+
+.icons {
+    background-color: #b0b0b3;
+}
+
+
+
+.socialmedia {
+    padding: 0px 0px 0px 100px;
+}
+
+.links a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.links a:hover {
+    color: #FB5B21;
+}
+
+.joinus {
+    height: max-content;
+    width: max-content;
+    background-color: #FB5B21;
+    /* border-color: none !important; */
+    border: 1px solid #FB5B21;
+    outline: none;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+}
+
+.joinus:active{
+    color: #ffffff;
+    font-size: 18px !important;
+    background-color: #FB5B21;
+    outline: none;
+    border: 1px solid #FB5B21;
+}
+
+.joinus:hover{
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+    color: #ffffff;
+    font-size: 18px !important;
+}
+
+.menu-icon{
+    visibility: hidden;
+    /* background-color: red; */
+}
+
+/* .nav-bar a:hover{
+
+} */
+
+@media only screen and (max-width: 1000px) {
+    .top{
+        display: flex;
+        flex-direction: row !important;
+        height: 60px;
+    }
+    .menu-top{
+        visibility: hidden;
+        /* top:-100% !important; */
+    }
+    .logo{
+        font-size: 25px;
+        margin: 0% !important;
+        margin-top: 10px !important;
+        padding: 5%;
+    }
+    .logo-class{
+        width: 20%;
+    }
+    .menu{
+        /* background-color: red; */
+        top: 0%;
+        right: 0%;
+        position: absolute;
+        /* top: -100%; */
+        width: 50%;
+        height: 60px;
+        margin: 0% !important;
+        padding: 0% !important;
+        /* background-color: red; */
+        color: white;
+        z-index: 999;
+        transition: all 0.8s ease-in-out;
+    }
+    .menu a, button{
+        transition: all 0.4s ease-out;
+        visibility: hidden;
+    }
+    .menu-icon{
+        visibility: visible;
+        z-index: 999;
+        top: 18px;
+        margin-right: 0px;
+        position: absolute;
+        text-align: right !important;   
+    }
+    .icon-size{
+        color:rgb(159, 154, 154);
+        margin-right: 20px;
+        font-size: 20px;
+        transition: transform 0.8s;
+    }
+    .icon-size:active{
+        transform: rotate(360deg);
+    }
+   
+    .links{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin-top : 25% !important;
+    }
+    .menuClass{
+        right: 0%;
+        transition: all 1s ease-in-out;
+        /* opacity: 0.8 !important; */
+        background-color: #222429;
+        height: 100%;
+        position: fixed;
+        /* z-index: 999; */
+    }
+    .menuClass a{
+        visibility: visible;
+        /* transition: all 2s ease-in-out; */
+    }
+}
+

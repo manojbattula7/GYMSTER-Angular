@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    <div class="row lightshadeblack top">
+        <div class="col-lg-3 col-sm-3 logo-class" >
+            <!-- <img src="assets/logo.png" class="logo"> -->
+            <h1 class="text-center m-3 logo text-orange-color"><b>GYMSTER</b></h1>
+        </div>
+        <div class="col-lg-9 col-sm-9">
+            <div class="row icons p-2 menu-top" style="background-color: #bdbdbf;">
+                <div class="col-lg-2 text-center">
+                    <i class="fa fa-envelope text-orange-color" aria-hidden="true"></i><label>&nbsp; abc12@gmail.com</label>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <i class="fa fa-phone text-orange-color" aria-hidden="true"></i><label>&nbsp; + 180-200-1234</label>
+                </div>
+                <div class="col-lg-7 socialmedia text-end" >
+                    <button class="btn btn-light rounded-circle">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>&nbsp;
+                    <button class="btn btn-light rounded-circle">
+                        <i class="fab fa-twitter"></i>
+                    </button>&nbsp;
+                    <button class="btn btn-light rounded-circle">
+                        <i class="fab fa-linkedin-in"></i>
+                    </button>&nbsp;
+                    <button class="btn btn-light rounded-circle">
+                        <i class="fab fa-instagram"></i>
+                    </button>&nbsp;
+                    <button class="btn btn-light rounded-circle">
+                        <i class="fab fa-youtube"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row p-3 links_row lightshadeblack menu" [class.menuClass] = "menuVariable">
+                <div class="col-lg-8 links" >
+                    <a [routerLink]="['/']" class="btn">Home</a>
+                    <a [routerLink]="['about']" class="btn">Aboutus</a>
+                    <a [routerLink]="['classes']" class="btn">Classes</a>
+                    <a [routerLink]="['trainers']" class="btn">Trainers</a>
+                    <a [routerLink]="['products']" class="btn">Products</a>
+                    <a [routerLink]="['contact']" class="btn">Contact</a>
+                    
+                </div>
+                <div class="col-lg-3 text-end">
+                    <button class="btn btn-primary joinus">JOIN US</button>
+                </div>
+                <div class="menu-icon" (click)="displayMenu()" >
+                    <i class="fa fa-bars icon-size" [ngClass] = "menuVariable ? 'fa fa-times icon-size' : 'fa fa-bars icon-size' "  aria-hidden="true"></i>
+                </div>
+                <!-- <div class="menu-icon">
+                    <i class="fa-solid fa-bars m-i"></i>
+                </div> -->
+            </div>
+        </div>
+        
+</div>
